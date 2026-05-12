@@ -46,7 +46,7 @@ export function SlideShell({
           </span>
         </div>
         <div className="text-xs md:text-sm font-body opacity-70 tracking-widest">
-          {eyebrow ?? `שיעור 02`}
+          {eyebrow ?? `שיעור 01`}
         </div>
       </div>
       {/* content */}
