@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { YogitMark, YogitWordmark } from "./Brand";
 
 type Tone = "cream" | "sand" | "sky" | "moss" | "forest" | "deep" | "terracotta";
 
@@ -39,9 +40,9 @@ export function SlideShell({
       {/* top bar */}
       <div className="absolute top-0 inset-x-0 flex items-center justify-between px-10 md:px-16 py-6 z-10">
         <div className="flex items-center gap-3">
-          <span className="yogit-mark text-base">y</span>
-          <span className="font-display font-bold tracking-wide text-sm md:text-base">
-            YOGIT <span className="opacity-60 font-body font-light mr-2">· יסודות</span>
+          <YogitMark size={36} />
+          <span className="font-body text-xs md:text-sm opacity-60 tracking-wider">
+            קורס יסודות
           </span>
         </div>
         <div className="text-xs md:text-sm font-body opacity-70 tracking-widest">
