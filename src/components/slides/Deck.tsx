@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2, Minimize2, Grid3x3 } from "lucide-react";
 import { slides, TOTAL_SLIDES } from "./slidesData";
+import { YogitMark, YogitWordmark } from "./Brand";
 
 const BASE_W = 1280;
 const BASE_H = 800;
@@ -59,8 +60,11 @@ export function Deck() {
       {/* top toolbar */}
       <header className="flex items-center justify-between px-5 py-3 border-b border-cream/10">
         <div className="flex items-center gap-3">
-          <span className="yogit-mark text-base">y</span>
-          <div className="font-display font-bold tracking-wide">YOGIT · קורס יסודות</div>
+          <YogitMark size={36} />
+          <div className="flex items-center gap-3">
+            <YogitWordmark className="h-5 invert brightness-0 opacity-90" />
+            <span className="opacity-50 text-sm font-body">· קורס יסודות</span>
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <button onClick={() => setShowGrid((s) => !s)} className="px-3 py-2 rounded-lg hover:bg-cream/10 flex items-center gap-2 text-sm font-body" title="תצוגת רשת (G)">
