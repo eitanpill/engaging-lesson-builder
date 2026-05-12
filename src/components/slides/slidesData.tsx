@@ -31,6 +31,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
     <SlideShell tone="cream" number={n} total={TOTAL} eyebrow="שיעור 01 · שער">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full items-center">
         <div className="space-y-7">
+          <YogitWordmark className="h-12 md:h-16 -mb-2" />
           <div className="text-xs tracking-[0.3em] font-body uppercase text-terracotta">Lesson · 01</div>
           <h1 className="font-display font-black text-5xl md:text-7xl leading-[1.05] text-balance">
             יסודות<br /> <span className="text-terracotta">היוגה</span>
