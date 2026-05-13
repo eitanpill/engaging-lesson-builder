@@ -202,9 +202,8 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
           </div>
         </div>
         <div className="relative h-[420px] md:h-[560px] rounded-3xl overflow-hidden shadow-[0_30px_80px_-40px_rgba(46,8,8,0.4)]">
-          <img src={yogaHero} alt="יוגה" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-deep/30 via-transparent to-transparent" />
-          <div className="absolute bottom-6 right-6 left-6 flex items-end justify-between text-cream">
+          <InfoCover />
+          <div className="absolute bottom-6 right-6 left-6 flex items-end justify-between text-deep">
             <div className="font-display text-2xl">שיעור 01</div>
             <div className="text-xs opacity-80 font-body">קורס יסודות · YOGIT</div>
           </div>
