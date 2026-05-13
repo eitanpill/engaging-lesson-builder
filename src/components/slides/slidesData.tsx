@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 import { SlideShell } from "./SlideShell";
 import { YogitMark, YogitWordmark } from "./Brand";
-import yogaHero from "@/assets/yoga-hero.jpg";
-import yogaBreath from "@/assets/yoga-breath.jpg";
-import yogaStand from "@/assets/yoga-stand.jpg";
-import grounding from "@/assets/grounding.jpg";
-import water from "@/assets/water.jpg";
+import yogaHero from "@/assets/illus-hero.jpg";
+import yogaBreath from "@/assets/illus-breath.jpg";
+import yogaStand from "@/assets/illus-stand.jpg";
+import grounding from "@/assets/illus-grounding.jpg";
+import water from "@/assets/illus-flow.jpg";
 
 const TOTAL = 13;
 
