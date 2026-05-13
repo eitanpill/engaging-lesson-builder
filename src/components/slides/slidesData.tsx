@@ -487,8 +487,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
     <SlideShell tone="moss" number={n} total={TOTAL} eyebrow="08 · קהילה">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10 w-full items-center">
         <div className="md:col-span-5 relative h-[480px] rounded-3xl overflow-hidden">
-          <img src={water} alt="זרימה" className="w-full h-full object-cover" loading="lazy" />
-          <div className="absolute inset-0 bg-gradient-to-t from-forest/60 to-transparent" />
+          <InfoCommunity />
         </div>
         <div className="md:col-span-7 space-y-6">
           <div className="text-xs tracking-[0.3em] uppercase text-terracotta font-body">סהאנגה</div>
