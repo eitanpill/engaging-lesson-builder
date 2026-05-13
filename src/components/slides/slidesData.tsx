@@ -305,7 +305,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
           </p>
         </div>
         <div className="md:col-span-5 relative h-[480px] rounded-3xl overflow-hidden">
-          <img src={grounding} alt="קרקוע" className="w-full h-full object-cover" loading="lazy" />
+          <InfoGrounding />
         </div>
       </div>
     </SlideShell>
@@ -382,7 +382,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
           </p>
         </div>
         <div className="md:col-span-5 relative h-[480px] rounded-3xl overflow-hidden">
-          <img src={yogaStand} alt="אסאנה" className="w-full h-full object-cover" loading="lazy" />
+          <InfoEightLimbs />
         </div>
       </div>
     </SlideShell>
@@ -448,7 +448,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
           </div>
         </div>
         <div className="md:col-span-5 relative h-[480px] rounded-3xl overflow-hidden">
-          <img src={yogaBreath} alt="נשימה" className="w-full h-full object-cover" loading="lazy" />
+          <InfoBreath />
         </div>
       </div>
     </SlideShell>
