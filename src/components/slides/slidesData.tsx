@@ -412,7 +412,7 @@ export const slides: Array<(p: { n: number }) => ReactNode> = [
 
   // 5 — Part 2: Three-part breath
   ({ n }) => (
-    <SlideShell tone="sky" number={n} total={TOTAL} eyebrow="02 · נשימת שלושת החלקים">
+    <SlideShell tone="sky" number={n} total={TOTAL} eyebrow="02 · נשימת שלושת החלקים — שיעור 03">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 w-full items-center">
         <div className="md:col-span-5 relative h-[520px] rounded-3xl overflow-hidden">
           <InfoThreePart />
