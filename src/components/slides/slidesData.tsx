@@ -96,7 +96,7 @@ const InfoStructure = () => (
       })}
       <circle cx="0" cy="0" r="40" fill="var(--terracotta)" />
       <text x="0" y="-2" textAnchor="middle" fontSize="11" fontWeight="800" fill="var(--cream)">שיעור</text>
-      <text x="0" y="14" textAnchor="middle" fontSize="11" fontWeight="800" fill="var(--cream)">02</text>
+      <text x="0" y="14" textAnchor="middle" fontSize="11" fontWeight="800" fill="var(--cream)">03</text>
     </svg>
   </div>
 );
