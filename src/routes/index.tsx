@@ -5,8 +5,8 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "YOGIT · שיעור 01 — יסודות היוגה" },
-      { name: "description", content: "יוגה כתרגול שיטתי של גוף, נשימה ותודעה — שיעור הפתיחה של קורס יסודות YOGIT." },
+      { title: "YOGIT · שיעור 02 — איך לעמוד, לשבת ולנוע מתוך יציבות" },
+      { name: "description", content: "יציבות שנולדת מבפנים — דרך הנשימה, הקרקוע והקשבה לגוף. שיעור 02 בקורס יסודות YOGIT." },
     ],
   }),
 });
